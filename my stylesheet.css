@@ -4,17 +4,29 @@ body {
     margin: 0;
     padding: 0;
 }
+div.container {
+    width:100%;
+    overflow: auto;
+  
+}
 
+div.container div {
+    width:100%;  
+    float:centre;
+    text-align: center;
+}
 header {
-    background-color: #0074D9;
-    color: grey;
+    background-color: #0074d909;
+    color: wheat;
     text-align: center;
     padding: 20px;
 }
 
-h1 {
+h1, h2 {
     font-size: 24px;
     margin-bottom: 10px;
+    text-align: center;
+    background-color: gray;
 }
 
 p {
@@ -23,18 +35,20 @@ p {
 }
 
 img {
-    max-width: 30%;
+    max-width: 50%;
     height: auto;
     display: block;
     margin: 20px auto;
 }
 
 audio {
-    width: 100%;
+    width: 40%;
+    
+
 }
 
 iframe {
-    width: 100%;
+    width: 560px;
     height: 315px;
     border: none;
 }
@@ -43,8 +57,8 @@ footer {
     background-color: #333;
     color: #ffffff;
     text-align: center;
-    padding: 10px;
-    position: absolute;
+    padding: 20px;
+    position: bottom;
     bottom: 0;
     width: 100%;
 }
